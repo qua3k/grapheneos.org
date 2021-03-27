@@ -5,7 +5,7 @@ set -o errexit -o nounset -o pipefail
 ./process-static
 
 servers=(
-    {0,1,2}.grapheneos.org
+    staging.grapheneos.org
 )
 
 for server in ${servers[@]}; do
